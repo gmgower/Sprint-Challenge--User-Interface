@@ -212,6 +212,15 @@ footer nav a {
 /* =======================  End of Home Page ===========================   */
 
 /*  =======================  Start of About Page ======================== */
+hr {
+    width: 100%;
+    border-style: dotted;
+}
+
+.about-container .about-card hr {
+    margin-top: 20px;
+    color: black;
+}
 
 .about-container {
     display: flex;
