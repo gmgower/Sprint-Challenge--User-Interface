@@ -212,6 +212,7 @@ footer nav a {
 /* =======================  End of Home Page ===========================   */
 
 /*  =======================  Start of About Page ======================== */
+
 hr {
     width: 100%;
     border-style: dotted;
@@ -266,3 +267,5 @@ margin-top: 10px;
 .about-container .about-info {
     margin: 20px;
 }
+
+/*  =======================  End of About Page ======================== */
