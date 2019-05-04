@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* =======================  Start of Home Page ===========================   */
 p {
     line-height: 1.4;
 }
@@ -70,6 +71,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/*  Start of header */
+header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    width: 750px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+header nav a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/*  End of Header */
+
 
 .top-content {
     display: flex;
