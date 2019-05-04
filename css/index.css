@@ -253,3 +253,7 @@ margin-top: 10px;
     background: black;
     color: white;
 }
+
+.about-container .about-info {
+    margin: 20px;
+}
