@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* =======================  Start of Home Page ===========================   */
 p {
     line-height: 1.4;
 }
@@ -71,12 +72,34 @@ p {
     margin: 0 auto;
 }
 
+/*  Start of header */
+header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    width: 750px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+header nav a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+/*  End of Header */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -112,6 +135,47 @@ p {
     justify-content: center;
 }
 
+/* Box Colors  */
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +208,66 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* =======================  End of Home Page ===========================   */
+
+/*  =======================  Start of About Page ======================== */
+
+hr {
+    width: 100%;
+    border-style: dotted;
+}
+
+.about-container .about-card hr {
+    margin-top: 20px;
+    color: black;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}  
+
+.about-container .about-content {
+    margin: 20px;
+}
+
+.about-container h2 {
+    margin: 10px 0;
+}
+
+.about-container .about-text {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted black;
+}
+
+.about-container .about-card {
+    padding: 20px;
+    width: 400px;
+    /* border-bottom: 2px dotted black; */
+}
+
+.about-container .about-card h3 {
+margin-top: 10px;
+}
+
+.about-container .about-card button {
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+.about-container .about-card button:hover {
+    background: black;
+    color: white;
+}
+
+.about-container .about-info {
+    margin: 20px;
+}
+
+/*  =======================  End of About Page ======================== */
