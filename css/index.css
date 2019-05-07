@@ -238,12 +238,14 @@ hr {
 }
 
 .about-container .about-text {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted black;
 }
 
 .about-container .about-card {
     padding: 20px;
     width: 400px;
+    /* border-bottom: 2px dotted black; */
 }
 
 .about-container .about-card h3 {
